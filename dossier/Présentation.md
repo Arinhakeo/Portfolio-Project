@@ -1,6 +1,3 @@
-Voici la traduction en français au format Markdown pour GitHub :
-
-```markdown
 # PROJET DE PORTEFEUILLE 
 ForMyPrinter (FMP)
 Plateforme de commerce électronique pour cartouches d'imprimante
@@ -170,9 +167,8 @@ Ce projet de portefeuille démontre ma capacité à :
 - Gérer des exigences de projet complexes
 
 ## Coordonnées
-Développeur : Arinhasvath KEOPHIPHATH  
-Rôle : Développeur Full-Stack
-Projet : Projet de Portefeuille - Holberton School
-Mail : 9295@holbertonstudents.com
-Github : https://github.com/Arinhakeo/Portfolio-Project.git
-```
+- Développeur : Arinhasvath KEOPHIPHATH  
+- Rôle : Développeur Full-Stack
+- Projet : Projet de Portefeuille - Holberton School
+- Mail : 9295@holbertonstudents.com
+- Github : https://github.com/Arinhakeo/Portfolio-Project.git
