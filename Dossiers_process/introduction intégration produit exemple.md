@@ -1,3 +1,4 @@
+
 # Structure du Projet FMP (For My Printer)
 
 ## Organisation des Dossiers
@@ -46,6 +47,7 @@ FMP/
         └── product-card.html
 
 ```
+
 ## Technologies Utilisées
 
 ### Frontend
