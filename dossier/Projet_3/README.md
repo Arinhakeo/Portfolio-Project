@@ -1,6 +1,5 @@
-### Traduction détaillée du projet en Markdown (`.md`)
+### Traduction détaillée du projet en Markdown (Projet 3)
 
-```markdown
 # Portfolio Project - Documentation Technique (Étape 3)
 **Niveau :** Novice  
 **Auteur :** Javier Valenzani  
