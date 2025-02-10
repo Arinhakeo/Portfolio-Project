@@ -1,4 +1,4 @@
-```markdown
+
 # Portfolio Project - Développement et Exécution du MVP (Étape 4)
 **Novice**  
 **Par :** Javier Valenzani  
@@ -161,4 +161,3 @@ Pour une application web :
 - Environnement de production
 
 **Ajoutez les URL ici :**
-```
