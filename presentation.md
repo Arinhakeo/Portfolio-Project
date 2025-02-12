@@ -1,147 +1,118 @@
-# ForMyPrinter (FMP) - Stage 1 Report
-## E-commerce Platform for Printer Cartridges
+# ForMyPrinter (FMP) Portfolio Project
+By Arinhasvath KEOPHIPHATH
 
-[Image Prompt: Create a professional logo for ForMyPrinter (FMP) featuring a modern printer cartridge design with eco-friendly elements]
+## EXERCISE 0: TEAM FORMATION
 
-## 1. Team Formation
+### Roles and Responsibilities Overview
 
-### Solo Developer Role Distribution
-```mermaid
-mindmap
-  root((Solo Developer))
-    Project Management
-      Sprint planning
-      Timeline tracking
-      Risk management
-    Technical Development
-      Frontend design
-      Backend architecture
-      Database management
-    Quality Assurance
-      Testing protocols
-      Performance monitoring
-    Business Analysis
-      Market research
-      User feedback analysis
-```
-
-### Communication and Project Management Tools
-- GitHub: Version control and project tracking
-- Trello: Task management and sprint planning
-- Google Drive: Documentation and asset storage
-- Discord: Stakeholder communication
-
-### Development Workflow
 ```mermaid
 graph LR
-    A[Planning] --> B[Development]
-    B --> C[Testing]
-    C --> D[Review]
-    D --> E[Deploy]
-    E --> A
+    id1(Arinhasvath KEOPHIPHATH) --> DevLead[Development Lead]
+    id1 --> ProjMan[Project Manager]
+    id1 --> QA[Quality Assurance]
+    DevLead --> Front[Frontend Dev]
+    DevLead --> Back[Backend Dev]
 ```
 
-## 2. Research and Brainstorming
+### Development Tools and Environment
+9308@holbertonstudents.com
+| Area | Tools |
+|------|-------|
+| Development | VS Code, GitHub |
+| Project Management | Trello |
+| Documentation | Google Workspace |
+| Communication | Discord |
 
-### Mind Mapping Exercise
+### Daily Schedule
+
+```mermaid
+journey
+    title Daily Workflow
+    section Morning
+      Planning: 5: Me
+      Setup: 5: Me
+    section Day
+      Development: 5: Me
+      Testing: 4: Me
+    section Evening
+      Review: 5: Me
+      Documentation: 4: Me
+```
+
+## EXERCISE 1: RESEARCH AND BRAINSTORMING
+
+### Market Research Mind Map
+
 ```mermaid
 mindmap
-  root((E-commerce Ideas))
-    Printer Supplies
-      Cartridges
-      Toners
-      Paper
-    Tech Services
-      Printer Repair
-      Refill Service
-    Eco Solutions
-      Recycling Program
-      Green Packaging
+    root(ForMyPrinter)
+        Products
+            OEM Cartridges
+            Compatible Cartridges
+            Recycled Cartridges
+        Customers
+            Small Business
+            Home Office
+            Educational
+        Features
+            Easy Search
+            Quick Order
+            Recycling Program
 ```
 
 ### SCAMPER Analysis
-1. Substitute
-   - Replace physical store with online platform
-   - Substitute new cartridges with recycled options
 
-2. Combine
-   - Merge OEM and compatible offerings
-   - Integrate recycling with purchase process
-
-3. Adapt
-   - Modify for different printer brands
-   - Adjust for business/home users
-
-4. Modify
-   - Enhanced search functionality
-   - Simplified ordering process
-
-5. Put to another use
-   - Recycling program for used cartridges
-   - Loyalty points system
-
-6. Eliminate
-   - Remove complex navigation
-   - Streamline checkout process
-
-7. Reverse
-   - Subscription-first approach
-   - Customer-driven inventory
+| Category | Application |
+|----------|-------------|
+| Substitute | Replace physical store with e-commerce |
+| Combine | Merge ordering with recycling program |
+| Adapt | Customize for different printer brands |
+| Modify | Enhance search and ordering process |
+| Put to other use | Convert used cartridges into recycled ones |
+| Eliminate | Remove complex ordering steps |
+| Reverse | Implement subscription-first approach |
 
 ### "How Might We" Questions
+
 ```mermaid
 graph TD
-    A[How Might We...] --> B[Make cartridge selection easier?]
+    A[How Might We] --> B[Make cartridge selection easier?]
     A --> C[Reduce environmental impact?]
     A --> D[Ensure product quality?]
     A --> E[Optimize pricing?]
-    B --> B1[Smart search system]
-    C --> C1[Recycling program]
-    D --> D1[Quality testing]
-    E --> E1[Dynamic pricing]
 ```
 
-## 3. Idea Evaluation
+## EXERCISE 2: IDEA EVALUATION
 
 ### Evaluation Matrix
-```mermaid
-quadrantChart
-    title Project Evaluation Matrix
-    x-axis Low Feasibility --> High Feasibility
-    y-axis Low Impact --> High Impact
-    quadrant-1 High Priority
-    quadrant-2 Quick Wins
-    quadrant-3 Low Priority
-    quadrant-4 Long Term
-    "Cartridge E-commerce": [0.8, 0.9]
-    "Printer Service": [0.4, 0.6]
-    "Paper Supplies": [0.7, 0.3]
-    "Tech Support": [0.5, 0.5]
-```
+
+| Criteria | Score (1-5) | Notes |
+|----------|-------------|-------|
+| Technical Feasibility | 4 | Standard e-commerce stack |
+| Market Potential | 5 | Growing eco-friendly market |
+| Innovation | 4 | Recycling program integration |
+| Resource Requirements | 4 | Solo development manageable |
+| Scalability | 5 | Easy to expand product range |
 
 ### Risk Assessment
+
 ```mermaid
 graph TD
-    A[Key Risks] --> B[Technical Risks]
-    A --> C[Business Risks]
-    A --> D[Market Risks]
-    B --> B1[Security challenges]
-    B --> B2[Integration issues]
-    C --> C1[Supply chain]
-    C --> C2[Price competition]
-    D --> D1[Market changes]
-    D --> D2[Consumer behavior]
+    A[Risks] --> B[Technical]
+    A --> C[Business]
+    A --> D[Market]
+    B --> B1[Security]
+    B --> B2[Integration]
+    C --> C1[Supply Chain]
+    C --> C2[Competition]
+    D --> D1[Market Changes]
+    D --> D2[Customer Behavior]
 ```
 
-## 4. Decision and Refinement
+## EXERCISE 3: DECISION AND REFINEMENT
 
-### Selected MVP: ForMyPrinter (FMP)
-Core Problem Solving:
-- Simplifying printer cartridge selection
-- Reducing environmental impact
-- Optimizing cost for customers
+### Selected MVP Features
 
-### Feature Prioritization
 ```mermaid
 pie title MVP Feature Priority
     "Product Catalog" : 30
@@ -152,48 +123,27 @@ pie title MVP Feature Priority
 ```
 
 ### Technical Architecture
+
 ```mermaid
 flowchart LR
-    A[Frontend/React] --> B[API Layer]
-    B --> C[Backend Services]
+    A[Frontend] --> B[API Layer]
+    B --> C[Backend]
     C --> D[Database]
-    C --> E[Payment System]
+    C --> E[Payment]
     C --> F[Inventory]
 ```
 
-## 5. Implementation Planning
+## EXERCISE 4: IDEA DEVELOPMENT DOCUMENTATION
 
-### Development Timeline
-```mermaid
-gantt
-    title MVP Development Schedule
-    dateFormat  YYYY-MM-DD
-    section Phase 1
-    Setup & Planning     :2024-12-01, 1w
-    Basic Structure     :2024-12-08, 2w
-    section Phase 2
-    Core Features      :2024-12-22, 2w
-    Testing           :2025-01-05, 1w
-    section Phase 3
-    Launch Prep       :2025-01-12, 1w
-```
+### Project Overview
 
-[Image Prompt: Create a mockup of the main product page showing the cartridge selection interface with eco-friendly elements]
+ForMyPrinter (FMP) is an e-commerce platform specializing in printer cartridges, offering three main product lines:
+- OEM cartridges
+- Compatible cartridges
+- Recycled cartridges
 
-## 6. Expected Outcomes
+### Target Market Segments
 
-### Business Goals
-```mermaid
-graph TD
-    A[Success Metrics] --> B[Sales Targets]
-    A --> C[User Engagement]
-    A --> D[Environmental Impact]
-    B --> B1[Monthly Revenue]
-    C --> C1[User Retention]
-    D --> D1[Recycling Rate]
-```
-
-### Target Market Segmentation
 ```mermaid
 pie title Market Distribution
     "Small Businesses" : 40
@@ -201,3 +151,24 @@ pie title Market Distribution
     "Educational" : 20
     "Individual Users" : 10
 ```
+
+### Development Timeline
+
+```mermaid
+gantt
+    title Project Timeline
+    dateFormat  YYYY-MM-DD
+    section Phase 1
+    Setup           :2024-12-01, 1w
+    Basic Frontend  :2024-12-08, 2w
+    section Phase 2
+    Core Features   :2024-12-22, 2w
+    Testing        :2025-01-05, 1w
+    section Phase 3
+    Launch         :2025-01-12, 1w
+```
+
+### Contact Information
+- **Name:** Arinhasvath KEOPHIPHATH
+- **Project:** ForMyPrinter (FMP)
+- **Role:** Full-Stack Developer & Project Manager
