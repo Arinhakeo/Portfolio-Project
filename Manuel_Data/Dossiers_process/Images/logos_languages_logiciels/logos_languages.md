@@ -84,4 +84,3 @@
     </td>
   </tr>
 </table>
-Stéphane Dinahet a mis en
